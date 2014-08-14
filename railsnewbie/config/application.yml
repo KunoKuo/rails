@@ -1,0 +1,14 @@
+defaults: &defaults
+  app_name: "Rails Newbie"
+  facebook_app_id: "695697487166476"
+  facebook_secret: "2802db41a429250a4b0da91a35cc4161"
+
+development:
+  <<: *defaults
+  domain: "http://rails-newbie.dev"
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
