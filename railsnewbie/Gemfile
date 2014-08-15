@@ -1,7 +1,9 @@
 source 'https://rubygems.org'
 
 group  :development  do 
+
   gem 'sqlite3' #開發模式用的資料庫
+
   gem "magic_encoding" # 解決 Rails 中文顯示問題
 
   gem "annotate" # 在 Model 裡顯示對應的資料庫設定
